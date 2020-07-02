@@ -1,0 +1,7 @@
+version 1 has no problems.
+
+version 2 does not respond.
+
+version 3 allows only upload but consumes same  memory as benchmark.
+
+version 4,5,6,7 consume inly memory as benchmark.

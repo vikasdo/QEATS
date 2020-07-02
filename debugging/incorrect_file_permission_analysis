@@ -1,0 +1,3 @@
+Command used to check the file permissions: ls -lh , !ls -lh
+
+Permissions for the uploaded file in the faulty version: -rw-r----- , -rw------- , --w-------

@@ -1,0 +1,62 @@
+It is found that versions 2 and 3 not responsive.
+
+Versions 4 ,5, 6, 7 end up consuming high memory.
+
+but comparatively version 4 is using 100% cpu.
+
+here are the results after conducting tests on versions 4 , 5, 6, 7
+
+#version 4
+
+Average time taken for Upload of 1GB file: 7.7 seconds
+Average time taken for Download of 1GB file: 11 seconds
+Average memory taken during Upload of 1GB file: 0.1 MB
+Average memory taken during Download of 1GB file: 0.1 MB
+Any increase in memory taken by QBox Server after each upload: 0 MB
+Any increase in memory taken by QBox Server after each download: 0 MB
+Average CPU taken for Upload of 1GB file: 100%
+Average CPU taken for Download of 1GB file: 100%
+File permissions for uploaded file: wrxwrxwrx
+File checksum same at source and destination for Upload: yes
+File checksum same at source and destination for Download: yes
+
+#version 5
+Average time taken for Upload of 1GB file: 10 seconds
+Average time taken for Download of 1GB file: 11 seconds
+Average memory taken during Upload of 1GB file: 0.1 MB
+Average memory taken during Download of 1GB file: 0.1 MB
+Any increase in memory taken by QBox Server after each upload: 0 MB
+Any increase in memory taken by QBox Server after each download: 0 MB
+Average CPU taken for Upload of 1GB file: 8%
+Average CPU taken for Download of 1GB file: 30%
+File permissions for uploaded file: wrxwrxwrx
+File checksum same at source and destination for Upload: yes
+File checksum same at source and destination for Download: yes
+
+#version 6
+
+Average time taken for Upload of 1GB file: 25 seconds
+Average time taken for Download of 1GB file: 12 seconds
+Average memory taken during Upload of 1GB file: 0.1 MB
+Average memory taken during Download of 1GB file: 0.1 MB
+Any increase in memory taken by QBox Server after each upload: 0 MB
+Any increase in memory taken by QBox Server after each download: 0 MB
+Average CPU taken for Upload of 1GB file: 13.0%
+Average CPU taken for Download of 1GB file: 25%
+File permissions for uploaded file: wrxwrxwrx
+File checksum same at source and destination for Upload: yes
+File checksum same at source and destination for Download: yes
+
+#version 7
+
+Average time taken for Upload of 1GB file: 13.5 seconds
+Average time taken for Download of 1GB file: 25 seconds
+Average memory taken during Upload of 1GB file: 0.1 MB
+Average memory taken during Download of 1GB file: 0.1 MB
+Any increase in memory taken by QBox Server after each upload: 0 MB
+Any increase in memory taken by QBox Server after each download: 0 MB
+Average CPU taken for Upload of 1GB file: 11%
+Average CPU taken for Download of 1GB file: 25%
+File permissions for uploaded file: wrxwrxwrx
+File checksum same at source and destination for Upload: yes
+File checksum same at source and destination for Download: yes
